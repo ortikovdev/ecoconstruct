@@ -1,0 +1,46 @@
+{% extends 'visit/main.html' %}
+{% load static %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+
+{% block content %}
+
+    <!-- Container for demo purpose -->
+    {%  include './incs/main/1_demo.html' %}
+    <!-- Container for demo purpose -->
+
+
+
+
+    <main>
+        <!--Section: Design Block-->
+
+
+        <!--Section: Design Block-->
+
+        <!--PROBLEMS SECTION-->
+        {%  include './incs/main/3_problems.html' %}
+        <!--PROBLEMS SECTION-->
+
+
+        <!--SOLUTIONS  SECTION-->
+        {%  include './incs/main/4_solutions.html' %}
+
+        <!--SOLUTIONS  SECTION-->
+
+
+        <!--Section: Design Block-->
+
+        <!--Section: Design Block-->
+
+        <!--Section: PROJECT PARTS-->
+
+        <!--Section: PROJECT PARTS-->
+
+
+
+    </main>
+{% endblock %}

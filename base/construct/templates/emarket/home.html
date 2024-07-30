@@ -1,0 +1,37 @@
+{% extends 'construct/emarket.html' %}
+{% load static %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+
+{% block content %}
+
+<!-- Container for demo purpose -->
+
+<!-- Container for demo purpose -->
+
+{% include './inc/home/_header.html'%}
+
+<!--Main layout-->
+<main class="mb-6 my-5 pt-5">
+  <div class="container">
+    <div class="row gx-lg-5">
+      {% include './inc/home/_filter.html'%}
+
+      <div class="col-lg-9">
+        {% include './inc/home/_sectionsort.html'%}
+        {% include './inc/home/_products.html'%}
+
+
+
+
+      </div>
+
+    </div>
+  </div>
+</main>
+<!--Main layout-->
+
+{% endblock %}

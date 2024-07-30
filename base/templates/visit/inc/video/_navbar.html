@@ -1,0 +1,67 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+                data-mdb-collapse-init
+                class="navbar-toggler"
+                type="button"
+                data-mdb-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse fs-4" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="{% url 'homepage' %}">
+                <div class="logo">
+                    <div class="leaf">
+                        <span class="stem"></span>
+                        <span class="leaf-shape"></span>
+                    </div>
+                    <div class="text">
+                        <span>Eco</span>
+                        <span>Construct</span>
+                    </div>
+                </div>
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'homepage' %}#problems">Muammolar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'homepage' %}#solutions">Yechimlar</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'videorolik' %}">Video rolik</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link mvp-link" href="{% url 'mvphome' %}">MVPga o'tish</a>
+                </li>
+            </ul>
+            <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+<!--        <div class="d-flex align-items-center">-->
+<!--            &lt;!&ndash; Icon &ndash;&gt;-->
+
+<!--            <a  href="#" type="button" class="btn btn-success mvp-link" data-mdb-ripple-init>-->
+<!--                MVPga o'tish-->
+<!--            </a>-->
+
+<!--        </div>-->
+        <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->

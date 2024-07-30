@@ -1,0 +1,551 @@
+{% extends 'construct/clean.html' %}
+{% load static %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+
+{% block content %}
+
+<!-- Container for demo purpose -->
+
+<!-- Container for demo purpose -->
+
+{% include './inc/home/_header.html'%}
+<!--Main layout-->
+<main class="mb-6">
+    <div class="container">
+
+        <!-- Section: Cart -->
+        <section class="">
+
+
+            <div class="row gx-lg-5 mb-5">
+                <div class="mb-3">
+                    <p class="text-primary text-center text-uppercase  fs-2 fw-bold">
+                        Tizim tomonidan taklif qilinayotgan cleaning xizmatlari turlari
+                    </p>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <ul class="list-group list-group-light">
+                        <button type="button"
+                                class="text-uppercase list-group-item list-group-item-action px-3 border-0 active"
+                                aria-current="true">
+                            Turar joylarni tozalash
+
+                        </button>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Doimiy uy tozalash xizmatlari</div>
+                                <!--                                Content for list item-->
+                            </div>
+                            <span class="badge badge-primary rounded-pill">180</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Deep cleaning</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">25</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Qurilishdan keyingi tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">78</span>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Ko'chishdagi tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">53</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <ul class="list-group list-group-light">
+                        <button type="button"
+                                class="text-uppercase list-group-item list-group-item-action px-3 border-0 active"
+                                aria-current="true">
+                            Ofislarni tozalash
+
+                        </button>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Doimiy ofis tozalash xizmatlari</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">250</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Fasadlarni tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">53</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Omborxonalarni tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">102</span>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Sanoat binolarini tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">13</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <ul class="list-group list-group-light">
+                        <button type="button"
+                                class="text-uppercase list-group-item list-group-item-action px-3 border-0 active"
+                                aria-current="true">
+                            Maxsus tozalash
+
+                        </button>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Gilam va pol qoplamalarini tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">127</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Mebellarni tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">83</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Bog'larni tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">42</span>
+                        </li>
+
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Bino shaxtalarini tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">67</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <ul class="list-group list-group-light">
+                        <button type="button"
+                                class="text-uppercase list-group-item list-group-item-action px-3 border-0 active"
+                                aria-current="true">
+                            Tadbirlardagi tozalash
+
+                        </button>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Tadbirdan oldingi tozalash</div>
+                                <!--                                Content for list item-->
+                            </div>
+                            <span class="badge badge-primary rounded-pill">270</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Tadbirdan keyingi tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">270</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <ul class="list-group list-group-light">
+                        <button type="button"
+                                class="text-uppercase list-group-item list-group-item-action px-3 border-0 active"
+                                aria-current="true">
+                            Ekologik tozalash
+
+                        </button>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Eco-friendly tozalash</div>
+                                <!--                                Content for list item-->
+                            </div>
+                            <span class="badge badge-primary rounded-pill">140</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Organik tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">110</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <ul class="list-group list-group-light">
+                        <button type="button"
+                                class="text-uppercase list-group-item list-group-item-action px-3 border-0 active"
+                                aria-current="true">
+                            Favqulotda tozalash
+
+                        </button>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Toshqinlarda tozalash</div>
+                                <!--                                Content for list item-->
+                            </div>
+                            <span class="badge badge-primary rounded-pill">110</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold">Yong'inlarda tozalash</div>
+                            </div>
+                            <span class="badge badge-primary rounded-pill">270</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr class="mb-5">
+
+
+            <div class="row gx-lg-5">
+                <div class="col-lg-8 mb-4 mb-md-0">
+                    {% include './inc/home/_sectionsort.html'%}
+                    <!-- Section: Trash Removal Services -->
+                    <section class="mb-5">
+                        <!-- Single item -->
+                        <div class="row border-bottom mb-4">
+                            <div class="col-md-2 mb-4 mb-md-0">
+                                <div class="
+                    bg-image
+                    rounded-5
+                    mb-4
+                    overflow-hidden
+                    d-block
+                    " data-mdb-ripple-init data-ripple-color="light">
+
+                                    <img src="{% static 'construct/images/clean/clean1.jpg' %}" class="w-100" alt=""/>
+                                    <!--                                    <img src="https://mdbootstrap.com/img/new/ecommerce/vertical/085.jpg" class="w-100" alt=""/>-->
+                                    <a href="#!">
+                                        <div class="hover-overlay">
+                                            <div class="mask" style="background-color: hsla(0, 0%, 98.4%, 0.2)"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <p class="fw-bold">Eco-Friendly Cleaning xizmati</p>
+                                <p class="mb-1">
+                                    <span class="text-muted me-2">Xizmat turi:</span><span>Organik tozalash</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="text-muted me-2">Narxi:</span><span>150 000 so'm</span>
+                                </p>
+
+                                <p>
+                                    <span class="text-muted me-2">Reyting:</span>
+                                    <span>4.1/5
+                                    <ul class="rating" data-mdb-rating-init data-mdb-readonly="true"
+                                        data-mdb-value="4.5">
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                    </ul></span>
+                                </p>
+
+                                <p class="mb-4">
+                                    <a href="" class="text-muted pe-3 border-end"><small><i
+                                            class="fas fa-location-dot me-2"></i> Toshkent shahri</small></a>
+                                    <a href="" class="text-muted ps-3"><small><i class="fas fa-heart me-2"></i>
+                                        Saralanganlarga qo'shish</small></a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 mb-4 mb-md-0">
+                                <div class="form-outline mb-4" data-mdb-input-init>
+                                    <input type="number" id="typeNumber3" class="form-control" value="1" min="0"/>
+                                    <label class="form-label" for="typeNumber">Xonalar soni</label>
+                                </div>
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <input type="tel" id="typePhone4" class="form-control"/>
+                                    <label class="form-label" for="typePhone">Telefon raqamingiz</label>
+                                </div>
+
+                                <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">
+                                    So'rov jo'natish
+                                </button>
+
+                                <p class="text-danger"><small>So'rov jo'nating, <br>tezda siz bilan
+                                    bog'lanishadi</small></p>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+
+                        <!-- Single item -->
+                        <div class="row border-bottom mb-4">
+                            <div class="col-md-2 mb-4 mb-md-0">
+                                <div class="
+                    bg-image
+                    rounded-5
+                    mb-4
+                    overflow-hidden
+                    d-block
+                    " data-mdb-ripple-init data-ripple-color="light">
+                                    <img src="{% static 'construct/images/clean/clean2.jpg' %}" class="w-100" alt=""/>
+                                    <a href="#!">
+                                        <div class="hover-overlay">
+                                            <div class="mask" style="background-color: hsla(0, 0%, 98.4%, 0.2)"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <p class="fw-bold">Commercial cleaning xizmatlari</p>
+                                <p class="mb-1">
+                                    <span class="text-muted me-2">Xizmat turi:</span><span>Ofis fasadlarini tozalash</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="text-muted me-2">Narxi:</span><span>200 000 so'mdan boshlab </span>
+                                </p>
+
+                                <p>
+                                    <span class="text-muted me-2">Reyting:</span>
+                                    <span>3.5/5
+                                    <ul class="rating" data-mdb-rating-init data-mdb-readonly="true" data-mdb-value="3">
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                    </ul></span>
+                                </p>
+
+                                <p class="mb-4">
+                                    <a href="" class="text-muted pe-3 border-end"><small><i
+                                            class="fas fa-location-dot me-2"></i> Toshkent shahri</small></a>
+                                    <a href="" class="text-muted ps-3"><small><i class="fas fa-heart me-2"></i>
+                                        Saralanganlarga qo'shish</small></a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 mb-4 mb-md-0">
+
+
+                                <p class=""><small>Siz xizmatdan foydalandingiz, <br>Servisni baholang</small></p>
+                                <ul class="rating" data-mdb-rating-init data-mdb-dynamic="true">
+                                    <li><i class="far fa-angry fa-2x" data-mdb-color="#673ab7"></i></li>
+                                    <li><i class="far fa-frown fa-2x" data-mdb-color="#3f51b5"></i></li>
+                                    <li><i class="far fa-meh fa-2x" data-mdb-color="#2196f3"></i></li>
+                                    <li><i class="far fa-smile fa-2x" data-mdb-color="#03a9f4"></i></li>
+                                    <li><i class="far fa-grin-stars fa-2x" data-mdb-color="#00bcd4"></i></li>
+                                    <!--                                  <li><i class="far fa-grin-stars fa-lg" data-mdb-color="#00bcd4"></i></li>-->
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+
+                        <!-- Single item -->
+                        <div class="row border-bottom mb-4">
+                            <div class="col-md-2 mb-4 mb-md-0">
+                                <div class="
+                    bg-image
+                    rounded-5
+                    mb-4
+                    overflow-hidden
+                    d-block
+                    " data-mdb-ripple-init data-ripple-color="light">
+                                    <img src="{% static 'construct/images/clean/clean3.jpg' %}" class="w-100" alt=""/>
+                                    <a href="#!">
+                                        <div class="hover-overlay">
+                                            <div class="mask" style="background-color: hsla(0, 0%, 98.4%, 0.2)"></div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 mb-4 mb-md-0">
+                                <p class="fw-bold">Maxsus tozalash xizmati</p>
+                                <p class="mb-1">
+                                    <span class="text-muted me-2">Xizmat turi:</span><span>Ta'mirdan keyingi tozalash</span>
+                                </p>
+                                <p class="mb-1">
+                                    <span class="text-muted me-2">Narxi:</span><span>110 000 so'mdan - 230 000 so'mgacha </span>
+                                </p>
+
+                                <p>
+                                    <span class="text-muted me-2">Reyting:</span>
+                                    <span>4.9/5
+                                    <ul class="rating" data-mdb-rating-init data-mdb-readonly="true" data-mdb-value="5">
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                      <li><i class="far fa-star fa-sm text-primary"></i></li>
+                                    </ul></span>
+                                </p>
+
+                                <p class="mb-4">
+                                    <a href="" class="text-muted pe-3 border-end"><small><i
+                                            class="fas fa-location-dot me-2"></i> Toshkent shahri</small></a>
+                                    <a href="" class="text-muted ps-3"><small><i class="fas fa-heart me-2"></i>
+                                        Saralanganlarga qo'shish</small></a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-4 mb-4 mb-md-0">
+                                <div class="form-outline mb-4" data-mdb-input-init>
+                                    <input type="number" id="typeNumber" class="form-control" value="1" min="0"/>
+                                    <label class="form-label" for="typeNumber">Xonalar soni</label>
+                                </div>
+                                <div data-mdb-input-init class="form-outline mb-4">
+                                    <input type="tel" id="typePhone" class="form-control"/>
+                                    <label class="form-label" for="typePhone">Telefon raqamingiz</label>
+                                </div>
+
+                                <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">
+                                    So'rov jo'natish
+                                </button>
+
+                                <p class="text-danger"><small>So'rov jo'nating, <br>tezda siz bilan
+                                    bog'lanishadi</small></p>
+                            </div>
+                        </div>
+                        <!-- Single item -->
+
+                    </section>
+                    <!-- Section: Trash Removal Services -->
+
+                    <!-- Section: Details -->
+                    <section class="">
+                        <div class="mb-5">
+                            <p class="text-primary">
+                                <i class="fas fa-info-circle mr-1"></i> Telefon raqamingizni va zarur bo'lsa yuk
+                                tashuvchi ishchilar sonini aniq ko'rsating. Sizga servis xodimlari aloqaga chiqishadi.
+                            </p>
+                        </div>
+
+
+                    </section>
+                    <!-- Section: Details -->
+                </div>
+                <div class="col-lg-4 mb-4 mb-md-0">
+                    <!-- Section: Pre-Booking Form -->
+                    <section class="shadow-4 p-4 rounded-5 mb-4">
+                        <h5 class="mb-5">Buyurtma berish</h5>
+
+                        <section class="mb-3">
+                            <h5 class="fw-bold mb-2">Hududlar</h5>
+                            <select class="form-select" aria-label="Select Region">
+                                <option selected>Tanlang</option>
+                                <option value="1">Toshkent shahri.</option>
+                                <option value="1">Toshkent viloyati</option>
+                                <option value="9">Nukus</option>
+                                <option value="16">Qoraqalpog'iston</option>
+                                <option value="2">Samarqand</option>
+                                <option value="3">Buxoro</option>
+                                <option value="4">Andijon</option>
+                                <option value="5">Farg'ona</option>
+                                <option value="8">Qo'qon</option>
+                                <option value="6">Namangan</option>
+                                <option value="17">Xorazm</option>
+                                <option value="7">Xiva</option>
+                                <option value="10">Urganch</option>
+                                <option value="11">Jizzax</option>
+                                <option value="12">Navoi</option>
+                                <option value="13">Qashqadaryo</option>
+                                <option value="14">Sirdaryo</option>
+                                <option value="15">Surxondaryo</option>
+                            </select>
+                        </section>
+
+                        <div class="form-outline mb-3" data-mdb-input-init>
+                            <input type="text" id="formControlLg" class="form-control form-control-lg"/>
+                            <label class="form-label" for="formControlLg">Manzilni kiriting</label>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">+998</span>
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    aria-label="Amount (to the nearest dollar)"
+                            />
+                        </div>
+
+                        <section class="mb-3">
+                            <h5 class="fw-bold mb-2">Tozalash turini tanlang</h5>
+                            <select class="form-select" aria-label="Select Region">
+                                <option value="1">Turar joynlarni tozalash</option>
+                                <option value="2">Ofislarni tozalash</option>
+                                <option value="3">Maxsus tozalash</option>
+                                <option value="4">Eco-friendly tozalash</option>
+                                <option value="5">Favqulotda tozalash</option>
+
+                            </select>
+                        </section>
+
+                        <div class="form-outline mb-4" data-mdb-input-init>
+                            <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
+                            <label class="form-label" for="textAreaExample">Izohlar</label>
+                        </div>
+
+
+                        <div class="form-outline mb-3" data-mdb-datetimepicker-init data-mdb-input-init>
+                            <input type="text" class="form-control" value="24/08/2024, 11:12 AM"
+                                   id="datetimepickerExample"/>
+                            <label for="datetimepickerExample" class="form-label">Kun va vaqtni belgilang</label>
+                        </div>
+
+
+                        <button type="button" class="btn btn-primary btn-rounded w-100" data-mdb-ripple-init>
+                            Oldindan buyurtma berish
+                        </button>
+                    </section>
+                    <!-- Section: Pre-Booking Form -->
+                    <!-- Section: Summary -->
+                    <section class="shadow-4 p-4 rounded-5">
+                        <h5 class="mb-4">Promo kodni aktivlashtirish</h5>
+
+                        <div class="d-flex align-items-center">
+                            <input
+                                    type="text"
+                                    class="form-control rounded me-1"
+                                    placeholder="Promo code"
+                            />
+                            <button
+                                    type="button"
+                                    class="btn btn-link btn-rounded overflow-visible" data-mdb-ripple-init
+                            >
+                                Jo'natish
+                            </button>
+                        </div>
+                    </section>
+                    <!-- Section: Summary -->
+                    <!-- Section: Promo Code -->
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- Section: Cart -->
+    </div>
+</main>
+<!--Main layout-->
+
+{% endblock %}

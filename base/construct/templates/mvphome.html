@@ -1,0 +1,96 @@
+{% extends 'construct/main.html' %}
+{% load static %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+
+{% block content %}
+
+<!-- Container for demo purpose -->
+
+<!-- Container for demo purpose -->
+
+
+<main>
+    <div class="container my-5 py-5 shadow-5">
+
+        <!--Section: Design Block-->
+        <section class="text-center">
+
+            <h3 class="mb-4">Eco Construct</h3>
+
+            <h6 class="mb-5 text-uppercase text-muted">
+                Uyingiz yoki ofisingiz ta'miridan keyingi muammolar yechimi shu yerda.
+                <br>
+                O'zingizdagi ortib qolgan qurilish materiallarini shu yerga joylashtiring, o'zlari olib ketishadi.
+                <br>
+                Yangi biznesingiz biz bilan mijozlarga taklif qiling.
+            </h6>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <i class="fas fa-recycle fa-3x text-primary mt-3"></i>
+                            <h5 class="card-title my-4">Qurilish mollari</h5>
+                            <p class="card-text">Ortiqchami darrov soting, <br> yoki arzonini sotib oling</p>
+                            <a type="button" class="btn btn-success btn-rounded" href="{% url 'emarket' %}" data-mdb-ripple-init data-mdb-ripple-color="dark">
+                                E-market
+                            </a><br><br>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <i class="fas fa-dumpster fa-3x text-primary mt-3"></i>
+                            <h5 class="card-title my-4">Trash removing</h5>
+                            <p class="card-text">Chiqindilarni xalos bo'ling, yuk mashinalarini kerak bo'lsa ishchilar
+                                bilan birga buyurtma qiling</p>
+                            <a type="button" class="btn btn-success btn-rounded" href="{% url 'trashremoving' %}" data-mdb-ripple-init data-mdb-ripple-color="dark">
+                                Trash Removing
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 text-center d-flex align-items-center">
+
+                    <img src="{% static 'construct/images/test2.jpg' %}" style="border-radius: 30px;" alt=""
+                         class="img-fluid mx-auto">
+
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <i class="fas fa-brain fa-3x text-primary mt-3"></i>
+                            <h5 class="card-title my-4">Bepul takliflar</h5>
+                            <p class="card-text">Bozorga borishga erinayotgan bo'lsangiz, xaritadan sizga eng yaqin qurilish mahsulotlari takliflarni hatto bepullarini tanlab aloqaga chiqing.</p>
+                            <a type="button" class="btn btn-success btn-rounded " href="{% url 'emarket' %}" data-mdb-ripple-init data-mdb-ripple-color="dark">
+                                Bepul takliflar
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row mb-5">
+                        <div class="col-12">
+                            <i class="fas fa-broom fa-3x text-primary mt-3"></i>
+                            <h5 class="card-title my-4">Pro-Cleaning</h5>
+                            <p class="card-text">Izohlardan eng yaxshilarini saralab, uyingizni professionalarga
+                                topshiring. Yoki, tozalash biznesingizni joylashtiring</p>
+                            <a type="button" class="btn btn-success btn-rounded" href="{% url 'proclean' %}" data-mdb-ripple-init data-mdb-ripple-color="dark">
+                                Pro Cleaning
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!--Section: Design Block-->
+
+    </div>
+    <!-- Container for demo purpose -->
+
+
+</main>
+{% endblock %}

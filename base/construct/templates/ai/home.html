@@ -1,0 +1,134 @@
+{% extends 'construct/ai.html' %}
+{% load static %}
+
+{% block title %}
+{{ title }}
+{% endblock title %}
+
+
+{% block content %}
+
+<!-- Container for demo purpose -->
+
+<!-- Container for demo purpose -->
+
+{% include './inc/home/_header.html'%}
+<!--Main layout-->
+<main class="mb-6">
+    <div class="container">
+
+        <!-- Section: Cart -->
+        <section class="row gx-lg-5">
+            <p class="text-muted text-uppercase small">Yuqori samaradorlik</p>
+            <h2 class="fw-bold pb-1">AI jihozlash</h2>
+            <p class="lead fw-normal text-muted mb-4">
+                Sun'iy intellekt va neyron tarmoqlar tizimi yordamida siz o'z uyingizni ichki va tashqi dizaynlarini
+                professional ko'rinishga keltiring. Siz o'z g'oyalaringizni tizim bilan bo'lishing, neyron tarmoqlari
+                sizga
+                5D ko'rinishda mukkammal planirovka taqdim etadi.</p>
+            <div class="mb-5">
+
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="d-flex align-items-center">
+                        <ul class="rating mb-2" data-mdb-rating-init data-mdb-readonly="true" data-mdb-value="4">
+                            <li>
+                                <i class="far fa-star fa-sm text-primary ps-0" title="Bad"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star fa-sm text-primary" title="Poor"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star fa-sm text-primary" title="OK"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star fa-sm text-primary" title="Good"></i>
+                            </li>
+                            <li>
+                                <i class="far fa-star fa-sm text-primary" title="Excellent"></i>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button type="button" class="btn btn-success btn-rounded fw-bold fs-6" data-mdb-ripple-init>
+                        Sinab ko'rish
+                    </button>
+
+                    <div class="d-flex align-items-center">
+                        <a href="#!"><i class="fas fa-share me-2"></i></a>
+                        <a href="#!"><i class="fab fa-facebook me-2"></i></a>
+                        <a href="#!"><i class="fab fa-twitter me-2"></i></a>
+                        <a href="#!"><i class="fas fa-rss"></i></a>
+                    </div>
+                </div>
+                <p class="small text-muted mb-0 fw-bold">Rank: 4.1/5 out of 11250 votes</p>
+            </div>
+            <hr class="mb-5">
+            <div class="mb-4">
+                <div class="">
+                    <div class="modal-body p-4">
+                        <div class="row">
+
+                            <div class="col-xl-5 col-lg-5 fs-5">
+
+                                <div class="row">
+                                    <div class="col-xl-10">
+<!--                                <p class="mb-4">Introducing Planner 5D's AI Room Planner, a cutting-edge tool revolutionizing interior design. -->
+                                <p class="mb-4">5D ko'rinishda AI yordamida xonalarni planirovka qilish, o'ziga xos innovatsion interyer dizayn start up loyihasi.
+                                    Suniy intellekt texnologiyalari asosida ishlovchi zamonaviy platforma foydalanuvchilardan interyer dizayn bo'yicha chuqur bilim bo'lishini talab qilmaydi.</p>
+                                <p class="mb-4">
+                                    Muhtasham uy rejangiz chizmalarini bizning texnologiya yordamida o'z orzuyingizdagi kabi o'zgartira olishingiz mumkin.
+                                    Bu platformaga o'z g'oyalaringiz haqida aytib berish orqali siz dizaynlar ishlab chiqish jarayonini osonlashtirasiz, maqsadingiz tezroq erishasiz.
+                                    Bugunoq imkoniyatlardan foydalanib ushbu start up texnologiyasining potensialidan foydalaning.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-xl-7 col-lg-6 mb-4 mb-lg-0">
+                                <!-- Carousel wrapper -->
+                                <div
+                                        id="carouselVideoExample"
+                                        data-mdb-carousel-init class="carousel slide carousel-fade"
+                                        data-mdb-ride="carousel"
+                                >
+                                    <!-- Inner -->
+                                    <div class="carousel-inner shadow-5-strong">
+                                        <!-- Single item -->
+                                        <div class="carousel-item active shadow-5-strong">
+                                            <video class="img-fluid" autoplay loop muted  >
+                                                <source src="{% static 'construct/video/vid1.mp4'%}"
+                                                        type="video/mp4"/>
+                                            </video>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- Inner -->
+
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+        <!-- Section: Cart -->
+    </div>
+</main>
+<!--Main layout-->
+
+{% endblock %}
